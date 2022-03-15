@@ -1,0 +1,70 @@
+.header-section {
+    background-color: white;
+    width: 100%;
+    height: 67px;
+    display: flex;
+}
+
+.header-division-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-division-left-content {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content-phone {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left-content-email {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-division-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-division-right-content {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-content-user {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-user-button {
+    background-color: transparent !important;
+    border: none !important;
+    color: #888;
+    zcf
+}
+
+.header-user-button:hover {
+    cursor: pointer;
+    color: #337ab7;
+}
+
+.right-content-social_links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
