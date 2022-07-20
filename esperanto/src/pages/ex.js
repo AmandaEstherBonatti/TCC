@@ -1,4 +1,4 @@
-import './_Home.css'
+import './_ex.css'
 
 export default function Home() {
     return <>
