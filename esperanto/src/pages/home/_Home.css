@@ -75,8 +75,9 @@
 .informations {
   width: 100%;
   position: absolute;
-  background: rgb(2, 28, 75);
-  background: linear-gradient(0deg, rgba(2, 28, 75, 1) 0%, rgba(214, 41, 15, 1) 97%);
+  
+  background: rgb(2,131,179);
+  background: linear-gradient(0deg, rgba(2,131,179,1) 0%, rgba(255,100,32,1) 100%);
   align-items: center;
   justify-content: center;
 }
@@ -91,7 +92,7 @@
   width: 600px;
   position: relative;
   top: 80px;
-  left: 450px;
+  left: 600px;
 }
 
 .container-about h2 {
@@ -112,7 +113,7 @@
 }
 
 .service-container {
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -135,7 +136,7 @@
   display: inline-block;
   padding: 2rem 1.5rem;
   margin: 30px;
-  background: linear-gradient(#fff 50%, #021c4b 50%);
+  background: linear-gradient(#fff 50%, #0283B3 50%);
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 10px;
@@ -150,7 +151,7 @@
 
 .card:hover .icon {
   background-color: #fff;
-  color: #021c4b;
+  color: #0283B3;
 }
 
 .card:hover h3 {
@@ -176,7 +177,7 @@
 
 .icon {
   position: relative;
-  background-color: #021c4b;
+  background-color: #0283B3;
   margin: auto;
   font-size: 25px;
   height: 2.5rem;
@@ -186,19 +187,14 @@
   transition: 0.4s;
 }
 
-.plans-container {
-  width: 100%;
-  position: absolute;
-  background-color: #021c4b;
-  align-items: center;
-  justify-content: center;
-  height: 350px;
-}
+
 
 .container-price {
   position: relative;
   display: flex;
-  top: 50px;
+  background: rgb(255,100,32);
+  background: linear-gradient(0deg, rgba(255,100,32,1) 0%, rgba(2,131,179,1) 100%);
+  top: 600px;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -220,7 +216,7 @@
   align-items: center;
   height: 55px;
   border-radius: 30px;
-  border: 1px solid #6860FF;
+  border: 1px solid #D6290F;
 }
 
 .tab-3,
@@ -242,8 +238,8 @@
 
 .slider {
   position: absolute;
-  height: 85%;
-  background: linear-gradient(to right top, #14E3DD, #6860FF);
+  height: 90%;
+  background: linear-gradient(to right top, #f2b346, #D6290F);
   border-radius: inherit;
   transition: all 0.3s ease;
 }
@@ -312,7 +308,7 @@
   margin: 20px 0;
   text-align: center;
   padding-bottom: 25px;
-  border-bottom: 1px solid #9BA3EB;
+  border-bottom: 1px solid #D6290F  ;
 }
 
 .pricing-details span {

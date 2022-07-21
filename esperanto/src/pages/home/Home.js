@@ -57,165 +57,171 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div className="plans-container">
-            <div className="parent">
-                <div className="container-price">
-                    <div className="wrapper">
-                        <input type="radio" name="slider" id="tab-1" />
-                        <input type="radio" name="slider" id="tab-2" defaultChecked />
-                        <input type="radio" name="slider" id="tab-3" />
-                        <div className="cabeca">
-                            <label htmlFor="tab-1" className="tab-1">Basico</label>
-                            <label htmlFor="tab-2" className="tab-2">Promocional</label>
-                            <label htmlFor="tab-3" className="tab-3">anual</label>
-                            <div className="slider"></div>
-                        </div>
-                        <div className="cards-area">
-                            <div className="cartao">
-                                <div className="row-price row-1">
-                                    <div className="pricing-details">
-                                        <span>R$190</span>
-                                        <p>para os q sao da area</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span>
-                                        </li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span>
-                                        </li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                                <div className="row-price">
-                                    <div className="pricing-details">
-                                        <span>R$7.90</span>
-                                        <p>para os nao sao da area</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span>
-                                        </li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span>
-                                        </li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                                <div className="row-price">
-                                    <div className="pricing-details">
-                                        <span>R$450</span>
-                                        <p>para os q sao da area</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span>
-                                        </li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span>
-                                        </li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="button" name="button">açina ai</button>
-                    </div>
-                    <div className="wrapper">
-                        <input type="radio" name="slider" id="tab-4" />
-                        <input type="radio" name="slider" id="tab-5" defaultChecked />
-                        <input type="radio" name="slider" id="tab-6" />
-                        <div className="cabeca">
-                            <label htmlFor="tab-4" className="tab-4">Basico</label>
-                            <label htmlFor="tab-5" className="tab-5">Promocional</label>
-                            <label htmlFor="tab-6" className="tab-6">anual</label>
-                            <div className="slider"></div>
-                        </div>
-                        <div className="cards-area">
-                            <div className="cartao">
-                                <div className="row-price row-1">
-                                    <div className="pricing-details">
-                                        <span>R$190</span>
-                                        <p>para os q sao da area</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                                <div className="row-price">
-                                    <div className="pricing-details">
-                                        <span>R$80</span>
-                                        <p>psei naaiia</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                                <div className="row-price">
-                                    <div className="pricing-details">
-                                        <span>R$60</span>
-                                        <p>psei naaiia</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="button" name="button">açina ai</button>
-                    </div>
-                    <div className="wrapper">
-                        <input type="radio" name="slider" id="tab-7" />
-                        <input type="radio" name="slider" id="tab-8" defaultChecked />
-                        <input type="radio" name="slider" id="tab-9" />
-                        <div className="cabeca">
-                            <label htmlFor="tab-7" className="tab-7">Basico</label>
-                            <label htmlFor="tab-8" className="tab-8">Promocional</label>
-                            <label htmlFor="tab-9" className="tab-9">anual</label>
-                            <div className="slider"></div>
-                        </div>
-                        <div className="cards-area">
-                            <div className="cartao">
-                                <div className="row-price row-1">
-                                    <div className="pricing-details">
-                                        <span>R$120</span>
-                                        <p>para os q sao gey</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                                <div className="row-price">
-                                    <div className="pricing-details">
-                                        <span>R$1870</span>
-                                        <p>para os romanticos</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                                <div className="row-price">
-                                    <div className="pricing-details">
-                                        <span>R$520</span>
-                                        <p>para os makonheros</p>
-                                    </div>
-                                    <ul className="features">
-                                        <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
-                                        <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="button" name="button">açina ai</button>
-                    </div>
 
+        <div className="parent">
+            <div className="container-price">
+                <div className="wrapper">
+                    <input type="radio" name="slider" id="tab-1" />
+                    <input type="radio" name="slider" id="tab-2" defaultChecked />
+                    <input type="radio" name="slider" id="tab-3" />
+                    <div className="cabeca">
+                        <label htmlFor="tab-1" className="tab-1">Basico</label>
+                        <label htmlFor="tab-2" className="tab-2">Plus</label>
+                        <label htmlFor="tab-3" className="tab-3">anual</label>
+                        <div className="slider"></div>
+                    </div>
+                    <div className="cards-area">
+                        <div className="cartao">
+                            <div className="row-price row-1">
+                                <div className="pricing-details">
+                                    <span>R$50</span>
+                                    <p>Recomendado para necessidades mínimas</p>
+                                </div>
+                                <ul className="features">
+                                    <li><i className="fa-solid fa-check"></i><span>Consultas uma vez na semana</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Acesso a profissionais recomendados</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Conteúdo de auto ajuda gratuito</span></li>
+                                </ul>
+                            </div>
+                            <div className="row-price">
+                                <div className="pricing-details">
+                                    <span>R$150</span>
+                                    <p>Recomendado para máximas necessidades</p>
+                                </div>
+                                <ul className="features">
+                                    <li><i className="fa-solid fa-check"></i><span>Consultas duas vezes na semana</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Acesso a todos os profissionais da plataforma</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Conteúdo privado de auto ajuda</span></li>
+                                </ul>
+                            </div>
+                            <div className="row-price">
+                                <div className="pricing-details">
+                                    <span>R$70</span>
+                                    <p>Recomendado para longos tratamentos</p>
+                                </div>
+                                <ul className="features">
+                                    <li><i className="fa-solid fa-check"></i><span>Consultas com até três vezes na semana</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Acesso a todos os profissionais</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Conteúdo gratuito e privado de auto ajuda</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" name="button">Obter</button>
                 </div>
+                <div className="wrapper">
+                    <input type="radio" name="slider" id="tab-4" />
+                    <input type="radio" name="slider" id="tab-5" defaultChecked />
+                    <input type="radio" name="slider" id="tab-6" />
+                    <div className="cabeca">
+                        <label htmlFor="tab-4" className="tab-4">Basico</label>
+                        <label htmlFor="tab-5" className="tab-5">Plus</label>
+                        <label htmlFor="tab-6" className="tab-6">anual</label>
+                        <div className="slider"></div>
+                    </div>
+                    <div className="cards-area">
+                        <div className="cartao">
+                            <div className="row-price row-1">
+                                <div className="pricing-details">
+                                    <span>R$40</span>
+                                    <p>Recomendado para convênios de saúde</p>
+                                </div>
+                                <ul className="features">
+                                <li><i className="fa-solid fa-check"></i><span>Consultas uma vez na semana</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Acesso a profissionais recomendados</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Conteúdo de auto ajuda gratuito</span></li>
+                                </ul>
+                            </div>
+                            <div className="row-price">
+                                <div className="pricing-details">
+                                    <span>R$140</span>
+                                    <p>Recomendado para convênios de saúde</p>
+                                </div>
+                                <ul className="features">
+                                <li><i className="fa-solid fa-check"></i><span>Consultas duas vezes na semana</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Acesso a todos os profissionais da plataforma</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Conteúdo privado de auto ajuda</span></li>
+                                </ul>
+                            </div>
+                            <div className="row-price">
+                                <div className="pricing-details">
+                                    <span>R$60</span>
+                                    <p>Recomendado para convênios de saúde</p>
+                                </div>
+                                <ul className="features">
+                                <li><i className="fa-solid fa-check"></i><span>Consultas com até três vezes na semana</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Acesso a todos os profissionais</span>
+                                    </li>
+                                    <li><i className="fa-solid fa-check"></i><span>Conteúdo gratuito e privado de auto ajuda</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" name="button">Obter</button>
+                </div>
+                <div className="wrapper">
+                    <input type="radio" name="slider" id="tab-7" />
+                    <input type="radio" name="slider" id="tab-8" defaultChecked />
+                    <input type="radio" name="slider" id="tab-9" />
+                    <div className="cabeca">
+                        <label htmlFor="tab-7" className="tab-7">Basico</label>
+                        <label htmlFor="tab-8" className="tab-8">Plus</label>
+                        <label htmlFor="tab-9" className="tab-9">anual</label>
+                        <div className="slider"></div>
+                    </div>
+                    <div className="cards-area">
+                        <div className="cartao">
+                            <div className="row-price row-1">
+                                <div className="pricing-details">
+                                    <span>R$120</span>
+                                    <p>para os q sao gey</p>
+                                </div>
+                                <ul className="features">
+                                    <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
+                                    <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
+                                    <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
+                                </ul>
+                            </div>
+                            <div className="row-price">
+                                <div className="pricing-details">
+                                    <span>R$1870</span>
+                                    <p>para os romanticos</p>
+                                </div>
+                                <ul className="features">
+                                    <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
+                                    <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
+                                    <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
+                                </ul>
+                            </div>
+                            <div className="row-price">
+                                <div className="pricing-details">
+                                    <span>R$520</span>
+                                    <p>para os makonheros</p>
+                                </div>
+                                <ul className="features">
+                                    <li><i className="fa-solid fa-check"></i><span>nn sei</span></li>
+                                    <li><i className="fa-solid fa-check"></i><span>benefiooo</span></li>
+                                    <li><i className="fa-solid fa-check"></i><span>que ideia terrivel me botar p fazer isso</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" name="button">açina ai</button>
+                </div>
+
             </div>
+
         </div>
     </>
 }
